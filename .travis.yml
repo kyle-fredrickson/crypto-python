@@ -3,4 +3,5 @@ language: python
 python:
   - "3.8"
 
-script: make test
+script:
+  - ./des/test.py
